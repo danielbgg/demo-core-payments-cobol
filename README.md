@@ -19,10 +19,3 @@ Aplicação legada **100% sintética** para demonstrar catálogo, ingestão, ind
 3. `PAYPROC` chama `PAYVAL` para validar a transação.
 4. Transações aprovadas são gravadas em `PAYOUT`; rejeições, em `PAYERR`.
 5. O job `PAYRETRY` permite reprocessamento de transações previamente rejeitadas.
-
-## Uso na POC
-
-- **ZIP:** envie `core-payments-demo.zip` na interface da aplicação.
-- **Git:** inicialize/publice este diretório em um repositório sintético permitido e registre a URL/branch `main`.
-
-Nenhuma credencial, dado de cliente, endpoint real ou código da Fiserv está incluído.
